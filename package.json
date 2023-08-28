@@ -1,7 +1,7 @@
 {
     "name": "vitemultipage",
     "version": "1.0.0",
-    "description": "A template for Vite with Bootstrap for multipage websites.",
+    "description": "A template for Vite with Bootstrap & Bootstrap-Icons for multipage websites.",
     "type": "module",
     "scripts": {
         "build": "vite build",
