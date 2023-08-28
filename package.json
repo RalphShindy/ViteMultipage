@@ -11,12 +11,13 @@
     "author": "Ralph Schindler",
     "license": "ISC",
     "devDependencies": {
+        "glob": "^10.3.3",
         "sass": "^1.66.1",
-        "vite": "^4.4.9",
-        "glob": "^10.3.3"
+        "vite": "^4.4.9"
     },
     "dependencies": {
         "@popperjs/core": "^2.11.8",
-        "bootstrap": "^5.3.1"
+        "bootstrap": "^5.3.1",
+        "bootstrap-icons": "^1.10.5"
     }
 }
