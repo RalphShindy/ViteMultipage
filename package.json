@@ -1,0 +1,22 @@
+{
+    "name": "vitemultipage",
+    "version": "1.0.0",
+    "description": "A template for Vite with Bootstrap for multipage websites.",
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "keywords": [],
+    "author": "Ralph Schindler",
+    "license": "ISC",
+    "devDependencies": {
+        "sass": "^1.66.1",
+        "vite": "^4.4.9",
+        "glob": "^10.3.3"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.8",
+        "bootstrap": "^5.3.1"
+    }
+}
