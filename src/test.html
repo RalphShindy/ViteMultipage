@@ -1,17 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap w/ Vite</title>
     <script type="module" src="./js/main.js"></script>
     <script type="module" src="./js/counter.js"></script>
-  </head>
-  <body>
-    <div class="container py-4 px-3 mx-auto" data-aos="fade-down">
-      <h1>Hello, Bootstrap and Vite!</h1>
-      <a class="btn btn-primary" href="index.html"><i class="bi bi-airplane"></i></a>
-      <p class="mt-2" id="counter">0</p>
+</head>
+
+<body>
+    <div class="container py-4 px-3 mx-auto">
+        <div data-aos="fade-down">
+            <h1>Hello, Bootstrap and Vite!</h1>
+            <a class="btn btn-primary" href="index.html"><i class="bi bi-airplane"></i></a>
+            <div>
+                <div class="input-group mt-2">
+                    <button type="button" class="btn btn-danger change-counter" data-counter="-1"><i
+                            class="bi bi-dash"></i></button>
+                    <input class="form-control" style="max-width: 5rem;" id="counter" value="0" />
+                    <button type="button" class="btn btn-success change-counter" data-counter="1"><i
+                            class="bi bi-plus"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="counter_full">
+            <h1>Hurra! Its full</h1>
+        </div>
+
+        <div id="counter_empty">
+            <h1>Oh no! Its empty</h1>
+        </div>
     </div>
-  </body>
+</body>
+
 </html>
